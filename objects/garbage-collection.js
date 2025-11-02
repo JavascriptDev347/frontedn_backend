@@ -4,8 +4,8 @@ let user = {
 };
 let admin = user;
 user = null;
-console.log(user); // null
-console.log(admin); // {name:"User 1"}
+// console.log(user); // null
+// console.log(admin); // {name:"User 1"}
 
 function marry(man, woman) {
     woman.husband = man;
@@ -23,4 +23,6 @@ let family = marry({
     name: "Ann"
 });
 
-console.log(family);
+// console.log(family);
+
+// === GARBAGE COLLECTION WITH MOSH ===
